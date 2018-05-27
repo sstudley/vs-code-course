@@ -1,0 +1,33 @@
+{
+  "name": "vscode-course",
+  "version": "1.0.0",
+  "description": "vscode course",
+  "main": "magic.js",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstudley/vs-code-course.git"
+  },
+  "keywords": [
+    "learn"
+  ],
+  "author": "Steve Studley",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sstudley/vs-code-course/issues"
+  },
+  "homepage": "https://github.com/sstudley/vs-code-course#readme",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
