@@ -1,38 +1,28 @@
 {
   "name": "vscode-course",
   "version": "1.0.0",
-  "description": "vscode course",
-  "main": "magic.js",
+  "description": "Code for the Scotch School course by @chrisoncode",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1"
+  },
   "scripts": {
-    "test": "\"\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sstudley/vs-code-course.git"
+    "url": "git+https://github.com/scotch-io/vscode-course.git"
   },
-  "keywords": [
-    "learn"
-  ],
-  "author": "Steve Studley",
-  "license": "Apache-2.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sstudley/vs-code-course/issues"
+    "url": "https://github.com/scotch-io/vscode-course/issues"
   },
-  "homepage": "https://github.com/sstudley/vs-code-course#readme",
-  "devDependencies": {
-    "ajv": "^6.5.0",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0",
-    "gulp": "^4.0.0",
-    "gulp-install": "^1.1.0"
-  },
-  "dependencies": {
-    "express": "^4.16.3"
-  }
+  "homepage": "https://github.com/scotch-io/vscode-course#readme"
 }
