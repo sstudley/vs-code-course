@@ -7,7 +7,17 @@
   <title>My New Editor</title>
 </head>
 <body>
-
+<section id="site-header" class="go-red">
+  <ul id="main-nav">
+    <li><a href="#" id="nav-items4">my first item</a></li>
+    <li><a href="#" id="nav-items4">my second item</a></li>
+    <li><a href="" id="nav-items4"></a></li>
+    <li><a href="" id="nav-items4"></a></li>
+  </ul>
+</section>
+<div>
+  
+</div>
 
   <ul>
     <li><a href="" id="id-1">hello</a></li>
@@ -16,6 +26,22 @@
     <li><a href="" id="id-4">hello</a></li>
     <li><a href="" id="id-5">hello</a></li>
   </ul>
+
+  <script>
+    const toddler = {
+      age: 3.2,
+      speak: function(){
+          const ageInMonths = Math.round(this.age * 12);
+          return 'I am  ${ageInMonths} months old 👏'
+      }
+    };
+
+    toddler.speak();
+
+    $('.something').fadeIn(500, function() {
+      console.log('say something');
+    });
+  </script>
  
 </body>
 </html>
